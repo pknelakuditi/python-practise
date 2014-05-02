@@ -1,0 +1,6 @@
+from bs4 import BeautifulSoup
+
+
+ob=BeautifulSoup("http://www.atozmp3.in/")
+
+print ob.__doc__
